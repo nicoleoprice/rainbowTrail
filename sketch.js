@@ -3,7 +3,7 @@ let mouseXArray = [];
 let mouseYArray = [];
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
 
   
   for(let i = 0; i < num; i++) {
