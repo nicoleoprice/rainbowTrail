@@ -21,7 +21,7 @@ function draw() {
   
   for (let i = 0; i < num; i++) {
     let k = (j + 1 + i) % num; 
-    rect(mouseXArray[k], mouseYArray[k], i, i, 10);
+    ellipse(mouseXArray[k], mouseYArray[k], i, i, 10);
   }
         noStroke();
   r = random(0,255);
